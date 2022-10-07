@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd4cea04.css",
-    "main.js": "/static/js/main.27d37a25.js",
-    "static/media/react.png": "/static/media/react.fb59dfc6bb1bac6b0ad0.png",
-    "static/media/CentralizedIFA.png": "/static/media/CentralizedIFA.e7d1fed79ed64fbf9a7f.png",
-    "static/media/CreateJiraIssue.png": "/static/media/CreateJiraIssue.6f29194d823a910e21a0.png",
-    "static/media/StewardingQueueSkeleton.png": "/static/media/StewardingQueueSkeleton.cb44f02dc7035fd77054.png",
-    "static/media/enhancedSearch.png": "/static/media/enhancedSearch.711cb355c06751547556.png",
-    "static/media/Salesforce.png": "/static/media/Salesforce.03d67c456b499807aaea.png",
-    "static/media/4spheres.png": "/static/media/4spheres.bf5b03a846c4642ef4e4.png",
-    "static/media/xd-logo-inv.png": "/static/media/xd-logo-inv.a847cc9e717a345a333a.png",
-    "index.html": "/index.html",
-    "static/media/Figma-logo.svg": "/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
-    "main.cd4cea04.css.map": "/static/css/main.cd4cea04.css.map",
-    "main.27d37a25.js.map": "/static/js/main.27d37a25.js.map"
+    "main.css": "/portfolio/static/css/main.cd4cea04.css",
+    "main.js": "/portfolio/static/js/main.7a9bac57.js",
+    "static/media/react.png": "/portfolio/static/media/react.fb59dfc6bb1bac6b0ad0.png",
+    "static/media/CentralizedIFA.png": "/portfolio/static/media/CentralizedIFA.e7d1fed79ed64fbf9a7f.png",
+    "static/media/CreateJiraIssue.png": "/portfolio/static/media/CreateJiraIssue.6f29194d823a910e21a0.png",
+    "static/media/StewardingQueueSkeleton.png": "/portfolio/static/media/StewardingQueueSkeleton.cb44f02dc7035fd77054.png",
+    "static/media/enhancedSearch.png": "/portfolio/static/media/enhancedSearch.711cb355c06751547556.png",
+    "static/media/Salesforce.png": "/portfolio/static/media/Salesforce.03d67c456b499807aaea.png",
+    "static/media/4spheres.png": "/portfolio/static/media/4spheres.bf5b03a846c4642ef4e4.png",
+    "static/media/xd-logo-inv.png": "/portfolio/static/media/xd-logo-inv.a847cc9e717a345a333a.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/Figma-logo.svg": "/portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
+    "main.cd4cea04.css.map": "/portfolio/static/css/main.cd4cea04.css.map",
+    "main.7a9bac57.js.map": "/portfolio/static/js/main.7a9bac57.js.map"
   },
   "entrypoints": [
     "static/css/main.cd4cea04.css",
-    "static/js/main.27d37a25.js"
+    "static/js/main.7a9bac57.js"
   ]
 }
