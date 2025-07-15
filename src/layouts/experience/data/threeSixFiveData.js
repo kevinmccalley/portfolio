@@ -30,7 +30,7 @@ export default function data() {
     rows: [
       {
         title: "UI/UX Design and Development",
-        date: "November 2022 - Present",
+        date: "November 2022 - April 2025",
         location: "San Luis Obispo, CA",
       },
     ],

@@ -75,11 +75,11 @@ function Experience() {
                 <MDBox pb={5} pl={7} color={darkMode ? "white" : "secondary"}>
                   <ul>
                     <li>
-                      Design User Iterfaces and developed front end applications for FullCount
+                      Designed User Iterfaces and developed front end applications for FullCount
                       Senior Living, a Point of Sale Solution serving more than 700 communities
                     </li>
                     <li>
-                      Design User Iterfaces for Touchscreen Application, Customer Portal and Self
+                      Designed User Iterfaces for Touchscreen Applications, Customer Portal and Self
                       Service Applications.
                     </li>
                     <li>
