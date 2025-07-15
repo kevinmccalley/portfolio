@@ -27,6 +27,7 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import DataTable from "examples/Tables/DataTable";
 
 // Data
+import threeSixFiveData from "layouts/experience/data/threeSixFiveData";
 import gaineSolutionsData from "layouts/experience/data/gaineSolutionsData";
 import consultantData from "layouts/experience/data/consultantData";
 import firstAmericanData from "layouts/experience/data/firstAmericanData";
@@ -37,6 +38,7 @@ import { useMaterialUIController } from "context";
 function Experience() {
   const [controller] = useMaterialUIController();
   const { darkMode, sidenavColor } = controller;
+  const { columns: tColumns, rows: tRows } = threeSixFiveData();
   const { columns, rows } = gaineSolutionsData();
   const { columns: pColumns, rows: pRows } = consultantData();
   const { columns: fColumns, rows: fRows } = firstAmericanData();
@@ -46,6 +48,50 @@ function Experience() {
       <DashboardNavbar />
       <MDBox pt={6} pb={3}>
         <Grid container spacing={6}>
+          <Grid item xs={12}>
+            <Card>
+              <MDBox
+                mx={2}
+                mt={-3}
+                py={3}
+                px={2}
+                variant="gradient"
+                bgColor={sidenavColor}
+                borderRadius="lg"
+                coloredShadow={sidenavColor}
+              >
+                <MDTypography variant="h6" color="white">
+                  365 Retail Markets / FullCount
+                </MDTypography>
+              </MDBox>
+              <MDBox pt={3}>
+                <DataTable
+                  table={{ columns: tColumns, rows: tRows }}
+                  isSorted={false}
+                  entriesPerPage={false}
+                  showTotalEntries={false}
+                  noEndBorder
+                />
+                <MDBox pb={5} pl={7} color={darkMode ? "white" : "secondary"}>
+                  <ul>
+                    <li>
+                      Design User Iterfaces and developed front end applications for FullCount
+                      Senior Living, a Point of Sale Solution serving more than 700 communities
+                    </li>
+                    <li>
+                      Design User Iterfaces for Touchscreen Application, Customer Portal and Self
+                      Service Applications.
+                    </li>
+                    <li>
+                      Create Figma prototypes for enhancements and new features to the FullCount
+                      applications.
+                    </li>
+                    <li>Develop front end web applications in React.</li>
+                  </ul>
+                </MDBox>
+              </MDBox>
+            </Card>
+          </Grid>
           <Grid item xs={12}>
             <Card>
               <MDBox

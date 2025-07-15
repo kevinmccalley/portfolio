@@ -28,6 +28,7 @@ import CreateJiraIssueImage from "../../assets/images/portfolio/CreateJiraIssue.
 import SkeletonLoaderImage from "../../assets/images/portfolio/StewardingQueueSkeleton.png";
 import SalesforceImage from "../../assets/images/portfolio/Salesforce.png";
 import SpheresImage from "../../assets/images/portfolio/4spheres.png";
+import TranslatorImage from "../../assets/images/portfolio/translator.png";
 
 const EnhancedSearchLink = "https://xd.adobe.com/view/afb9a196-0f8f-4fc7-8091-e7390a6582d2-faea/";
 const CentralizedIFALink = "https://xd.adobe.com/view/ad579ed9-bf28-4d6e-a8ac-06c268f1b1ba-f804/";
@@ -37,6 +38,7 @@ const SalesforceLink = "https://xd.adobe.com/view/a17f0a80-3516-46de-95a8-558002
 const SpheresLink = "https://xd.adobe.com/view/8319b7e6-69b2-4c9f-908e-6d5d81bef4ff-d64a/";
 const FigmaSpheresLink = "https://www.figma.com/file/M6wK582bEJt8AKhf1qCzr5/4Spheres?node-id=3%3A2";
 const SpheresReactPage = "https://kevinmccalley.github.io/4spheres/";
+const TranslatorLink = "https://translate-app-bice-three.vercel.app/";
 
 function Portfolio() {
   return (
@@ -45,6 +47,24 @@ function Portfolio() {
       <MDBox pt={3} pb={3}>
         <MDBox py={3}>
           <Grid container spacing={3}>
+            <Grid item xs={12} md={6} lg={3}>
+              <MDBox mb={1.5}>
+                <Link href={TranslatorLink} target="_new">
+                  <ComplexStatisticsCard
+                    color="info"
+                    icon={<MDBox component="img" src={ReactLogo} alt="React" width="100%" />}
+                    image={TranslatorImage}
+                    title="A Translation Application"
+                    count="Translation"
+                    percentage={{
+                      color: "primary",
+                      amount: "React",
+                      label: " - View Application",
+                    }}
+                  />
+                </Link>
+              </MDBox>
+            </Grid>
             <Grid item xs={12} md={6} lg={3}>
               <MDBox mb={1.5}>
                 <Link href={EnhancedSearchLink} target="_new">
